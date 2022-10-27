@@ -75,7 +75,7 @@ services:
     command: sh -c "cd /javaSource; ./mvnw spring-boot:run"
 ```
 
-The `DB` service is just fantastic, it sets up a whole MySQL server without any hassle. The volumes attribute gives the container an entry SQL script, i.e this script runs on boot. So in this file, you can add your schemas and table structure, add test data etc.
+The `DB` service is just fantastic, it sets up a whole MySQL server without any hassle. The volumes attribute gives the container an entry SQL script, i.e this script runs on boot. So in this file, you can add your schemas and table structure, add test data etc. Just keep in mind that it needs to be in this format.
 
 ### The magic for running spring
 
