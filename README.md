@@ -141,7 +141,7 @@ so in my case, it is `172.17.0.1` this might be the standard IP for docker to us
 Here is an example on a `application.properties` file 
 
 ```
-server.port=8000
+server.port=8080             <--- Note in the other example I use port 8000, you can change the port, but remember to expos it too in the compose file
 spring.jpa.generate-ddl=true
 spring.datasource.url=jdbc:mysql://172.17.0.1:3306/db
 spring.datasource.username=root
