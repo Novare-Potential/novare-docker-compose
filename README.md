@@ -43,7 +43,7 @@ The same thing here. From this command, everything should work out of the box. W
 ## How to do it
 I will use **docker-compose** in this example.
 
-I have provided a folder named `demo`, this is a root directory of a GitHub repo. In short, it contains a simple spring boot app(This example does not connect to a DB, but pretend that I did. Please see my other example on *"how to connect a react frontend to spring security"* to see a live example).
+I have provided a folder named `demo`, this is a root directory of a GitHub repo. In short, it contains a simple spring boot app(This example does not connect to a DB, but pretend that it does. Please see my other example on *"how to connect a react frontend to spring security"* to see a live example).
 
 ### The docker-compose file
 So this is the file content of the docker-compose file. It contains the specs for setting up two containers, one running OpenJDK and one MySQL.
