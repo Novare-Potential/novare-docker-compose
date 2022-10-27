@@ -150,6 +150,12 @@ spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 spring.jpa.database=mysql
 ```
 
+
+## Final thoughts
+Since we are building full standalone apps, DB included, we want to use docker-compose. However, in a real-world scenario, we would more likely try to wrap your app inside a docker file, such that it could be orchestrated in a larger system. In these projects, we aren't trying to perfect a workflow on how to use docker. It is more centred around you getting a well-rounded experience using a variety of developer tools.
+
+
+
 # That is about it
 If something isn't clear, please get in touch ASAP and let us sort it out.
 
